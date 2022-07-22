@@ -2,7 +2,7 @@
 ## Projeto
 
 - **Nome do Projeto**: Autolux
-- Link do site : [ http://autolux.ctdprojetos.com.br/](https://autolux-gabrielgpena793.vercel.app/)
+- Link do site : https://autolux-gabrielgpena793.vercel.app
 
 Aluguel de carros exclusivos, veículos sofisticados, potentes e confortáveis, com acessórios e acabamentos à altura da exigência de quem dirige. Além disso, com a experiência única de dirigir um carro com motorização diferenciada e uma performance superior aos demais.
 
