@@ -1,0 +1,13 @@
+$theme-colors: (
+  "charcoal": #31363f,
+  "light": #f8f8f8,
+  "red": #f0572d,
+  "red-hover": #af3918,
+  "grey": #dfe8f3,
+  "medium-grey": #626874,
+  "dark": #191b1d,
+  "yellow": #F4C728,
+  "primary": #f0572d,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";

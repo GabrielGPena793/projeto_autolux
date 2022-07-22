@@ -1,0 +1,172 @@
+.container__menu_sidebar {
+  display: none;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: -117px;
+  top: 36px;
+}
+
+.bm-burger-button > button {
+  left: -13px !important;
+  top: -16px !important;
+  z-index: 0 !important;
+  padding: 2rem !important;
+  background: var(--secondary-color) !important;
+  border-radius: 8px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: var(--primary-color);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross-button > span {
+  right: 24px !important;
+  top: 20px !important;
+}
+
+.bm-cross-button > span::after {
+  content: "Close";
+  color: var(--secondary-color);
+  position: absolute;
+  right: 28px;
+  top: 2px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: var(--secondary-color);
+  width: 4px !important;
+  height: 32px !important;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+div.bm-menu-wrap {
+  width: 100% !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: var(--primary-color);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 100%;
+  margin: -2rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_sidebar{
+  height: 5rem;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* Individual item */
+a.bm-item {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--secondary-color);
+  width: 100%;
+
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a.bm-item span {
+  flex: 1;
+}
+
+.bm-item svg{
+  margin-bottom: 0.45rem;
+
+}
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.container__menu_sidebar div div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  color: #d1d1d1;
+  margin-bottom: 10px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #ffffff;
+}
+
+#react-burger-cross-btn {
+  left: -100px !important;
+  top: 10px !important;
+  padding: 22px 4rem !important;
+}
+
+@media (max-width: 767px) {
+
+    .container__menu_sidebar {
+      display: block;
+      height: 4rem;
+    }
+
+  .bm-burger-button {
+    right: 44px;
+    top: 55px;
+  }
+}

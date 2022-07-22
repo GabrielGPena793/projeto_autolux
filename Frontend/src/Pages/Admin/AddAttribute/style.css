@@ -1,0 +1,93 @@
+.attribute {
+  background: var(--primary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.admin-h3 {
+  padding: 2rem 0 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.attribute_btn {
+  padding: 0;
+  font-size: 2rem;
+  align-self: flex-end;
+  color: var(--secondary-color);
+  margin-right: 0.33rem;
+}
+
+.attribute_btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.attribute_div {
+  width: 100%;
+}
+
+.attribute_label {
+  margin-right: 3rem;
+}
+
+.attribute_input, .attribute_input_descrip {
+  width: 60%;
+  height: 2.75rem;
+  background-color: var(--dark-blue);
+  margin: 1rem 0.3rem 0 0;
+  border: 1px solid var(--secondary-color);
+  border-radius: none;
+  padding-left: 0.5rem;
+}
+
+.attribute_input:hover {
+  box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+.attribute_input_descrip:hover {
+box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+.attribute_input:focus {
+  border-radius: none;
+  border-color: var(--secondary-color);
+  outline: 0;
+  box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+.attribute_input_descrip:focus {
+  border-radius: none;
+  border-color: var(--secondary-color);
+  outline: 0;
+  box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+@media (min-width: 500px) {
+  .attribute-btn {
+  margin-right: .2rem;
+}
+  .attribute_input {
+    width: 80%;
+  }
+  .attribute_input_descrip {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .attribute_input {
+    width: 86%;
+  }
+   .attribute_input_descrip {
+    width: 83%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .attribute_input {
+    width: 84%;
+  }
+
+  .attribute_input_descrip {
+    width: 80%;
+  }
+}

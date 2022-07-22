@@ -1,0 +1,26 @@
+.rules {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.rules_content {
+  border: 1px solid var(--secondary-color);
+  padding: .5rem;
+}
+
+.rules_h1 {
+  font-size: 24px;
+  font-weight:700;
+  padding: 1rem 0;
+}
+
+.rules_h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.rules_text {
+  font-size: 1rem;
+  line-height: 1.75rem;
+}

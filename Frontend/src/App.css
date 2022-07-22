@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #E2E2E2;
+}
+
+a{
+    color: var(--light);
+    text-decoration: none;
+
+}
+body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+h6{
+    margin-bottom: 0;
+}
+
+
+
+:root {
+    --primary-color: #0F0F1B;
+    --secondary-color: #886D48;
+    --sub-text: #645137;
+
+
+    --dark-blue: #1F2030;
+    --dark-gold: #C3AA27;
+
+    /*cores antigas*/
+    --charcoal: #31363F;
+    --light: #E2E2E2;
+    --red: #c2af46;
+    --red-hover: #c2af46;
+
+    --grey: #dededece;
+    --medium-grey: #62687479;
+    --dark: #191B1D;
+    --yellow: #191B1D;
+}
+
+::placeholder {
+  color: #979797;
+}  

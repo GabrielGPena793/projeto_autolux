@@ -1,0 +1,19 @@
+.car_categories {
+   padding: 0 6rem;
+  
+}
+
+.car_categories .addRules > div{
+    padding: 0 !important;
+    margin: 5rem 0 !important;
+    max-width: 100% !important;
+}
+
+.container__description_owner{
+    max-width: 1294px;
+    margin: auto;
+}
+
+.container__description_owner > div, .Car_location_all, .img_gal_descr_all {
+    padding: 0 1rem;
+}

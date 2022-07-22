@@ -1,0 +1,259 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em;
+}
+
+.register-form-car {
+    height: 620px;
+    overflow: hidden;
+}
+
+.container-register {
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.link-login {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--light);
+}
+
+.link-login a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#nameandlastname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.button-register {
+    border: 1px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    width: 206px;
+    height: 40px;
+    align-self: center;
+    margin-top: 40px;
+    color: var(--secondary-color);
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.button-register:hover {
+    background-color: var(--secondary-color);
+    color: var(--light);
+}
+
+.MuiFormHelperText-root.Mui-error {
+    color: #f44336;
+    position: absolute;
+    bottom: -21px;
+}
+
+.alert-register-error {
+    color: var(--red);
+}
+
+.loading-register {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.loading-register p {
+    color: var(--light);
+    font-weight: bold;
+    flex: 1 100%;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.loading-register.hide {
+    display: none;
+}
+
+.car-image-register {
+    width: 80%;
+}
+
+.car-image-register img {
+    width: 100%;
+}
+
+.register-form-car {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--dark-blue);
+    margin-top: 3em;
+}
+
+/*formulario*/
+.MuiInputLabel-formControl {
+    color: var(--light) !important;
+}
+
+.MuiInput-underline:before {
+    /*cor da linha do input*/
+    border-bottom: 1px solid var(--light) !important;
+}
+
+.MuiInputBase-input {
+    /*cor da fonte do form*/
+    color: var(--light) !important;
+}
+
+.form-register-fields {
+    width: 100%;
+}
+
+
+/* Responsividade */
+@media (min-width: 200px) and (max-width: 319px) {
+    .register-title {
+        font-size: 1.2rem;
+    }
+
+    .car-image-register img {
+        display: none;
+    }
+
+    #nameandlastname {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width: 320px) {
+    .register-title {
+        font-size: 1.3rem;
+    }
+
+    .car-image-register img {
+        display: none;
+    }
+
+    #nameandlastname {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .register-form {
+        width: 363px;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root.button-register {
+        width: 300px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .register-title {
+        font-size: 1.3rem;
+        margin-top: 1em;
+    }
+
+    .car-image-register img {
+        display: flex;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .form-register-fields {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.car-image-register {
+    height: 666.8px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #nameandlastname {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .register-title {
+        margin-top: 0;
+    }
+
+    .css-sghohy-MuiButtonBase-root-MuiButton-root.button-register {
+        width: 206px;
+    }
+
+    .register-form {
+        width: 100%;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #nameandlastname {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3rem;
+    }
+
+    .register-form-car {
+        width: 100%;
+    }
+
+    .register-form {
+        width: 100%;
+        padding: 5rem;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .form-register-fields {
+
+
+    }
+    .register-form-car {
+        width: 100%;
+    }
+    #name.MuiInput-input, #lastname.MuiInput-input {
+        width: 280px;
+    }
+}

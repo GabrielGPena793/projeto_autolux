@@ -1,0 +1,121 @@
+.description_header_all {
+  margin-top: 1rem;
+  padding: 0rem 6rem 0rem 6rem;
+  background-color: var(--secondary-color) ;
+}
+
+.text-dark h5, .text-dark h4{
+  color: var(--dark-blue) !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.text-dark h4{
+  font-size: 1.25rem;
+  line-height: 0.5;
+}
+
+.Header_description_All {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1294px;
+  margin: auto;
+}
+
+.description_localidade_avaliacao_color {
+  padding: 0.4rem 6rem 0.4rem 6rem;
+  background-color: var(--dark-blue);
+}
+
+.icon_back_header_description {
+  width: 2.6rem;
+  height: 100%;
+}
+
+.description_localidade_avaliacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1294px;
+  margin: auto;
+}
+
+.icon_star_header_description {
+  color: var(--red);
+}
+
+.icon_star_header_description_not {
+  color: var(--medium-grey);
+}
+
+@media (max-width: 1000px) {
+  .description_header_all {
+    padding: 0rem 4rem 0rem 4rem;
+  }
+  .description_localidade_avaliacao_color{
+    padding: 0;
+  }
+  .description_localidade_avaliacao {
+    padding: 0.4rem 4rem 0.4rem 4rem;
+  }
+  .description_header_all h5 {
+    font-size: 20px;
+  }
+  .description_header_all h4 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 800px) {
+  .description_header_all {
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  .description_localidade_avaliacao {
+    padding: 0.4rem 2rem 0.4rem 2rem;
+  }
+  .description_localidade_avaliacao h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .description_header_all {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  .description_localidade_avaliacao {
+    padding: 0.4rem 1rem 0.4rem 1rem;
+  }
+  .description_header_all h5 {
+    font-size: 17px;
+  }
+  .description_header_all h4 {
+    font-size: 20px;
+  }
+  .icon_back_header_description {
+    width: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .description_header_all h5 {
+    font-size: 15px;
+  }
+  .description_header_all h4 {
+    font-size: 18px;
+  }
+  .icon_back_header_description {
+    width: 2rem;
+  }
+  .description_localidade_avaliacao h5 {
+    font-size: 17px;
+  }
+}
+
+.header_iconLocation{
+  margin-right: 0.6rem;
+}
+
+.container_star {
+  text-align: center;
+}

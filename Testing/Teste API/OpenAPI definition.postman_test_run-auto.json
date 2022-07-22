@@ -1,0 +1,1296 @@
+{
+	"id": "987f4520-31d9-4d95-a09f-e052c1458740",
+	"name": "OpenAPI definition",
+	"timestamp": "2022-07-17T19:54:36.946Z",
+	"collection_id": "18522124-37e5b348-71dd-452f-b6d5-b5d5bed91344",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 79,
+	"totalFail": 41,
+	"results": [
+		{
+			"id": "74f1390f-ec50-409d-bef7-776ddfb2edd6",
+			"name": "find By Id",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/33",
+			"time": 414,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": true,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				414
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": true,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "0244c913-902b-4ded-b6ca-b11851f3d925",
+			"name": "delete",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/40",
+			"time": 110,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code é 403": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"Retorno id": true,
+				"Erro esperado": true
+			},
+			"testPassFailCounts": {
+				"Status code é 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Erro esperado": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Status code é 403": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"Retorno id": true,
+					"Erro esperado": true
+				}
+			]
+		},
+		{
+			"id": "ef7a15b5-78ab-4521-bfcd-d0b0973d9ae5",
+			"name": "add Images",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/-42893607",
+			"time": 112,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				112
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8c80f398-1219-427f-8398-88bdbe9783ec",
+			"name": "find All Products By City",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/city?id=5",
+			"time": 131,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				131
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "a20fb135-72a5-48e6-ae8d-d86f81d9f38f",
+			"name": "find By Name Between Date",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/city/date?cityId=-42893607&init=in%20sit%20laborum%20proident&end=in%20sit%20laborum%20proident",
+			"time": 110,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				110
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "acd938c6-d421-4cd7-a44d-413d8d633c35",
+			"name": "find All",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products",
+			"time": 170,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				170
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "c99737e6-6240-4351-bbe2-2d35dc894c62",
+			"name": "update",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/33",
+			"time": 152,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code é 200": false,
+				"Status code é 405": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"Erro esperado": false,
+				"Retorno id": false
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 405": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Erro esperado": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"Status code é 200": false,
+					"Status code é 405": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"Erro esperado": false,
+					"Retorno id": false
+				}
+			]
+		},
+		{
+			"id": "430d9b77-c500-4326-821b-0871a760a476",
+			"name": "create",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products",
+			"time": 112,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"Status code é 403": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": false
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				112
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"Status code é 403": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": false
+				}
+			]
+		},
+		{
+			"id": "375ea449-f87c-4eba-911d-ee5908f6d59b",
+			"name": "product Score",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/score",
+			"time": 103,
+			"responseCode": {
+				"code": 403,
+				"name": "Forbidden"
+			},
+			"tests": {
+				"Status code é 403": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"Retorno id": true,
+				"Erro esperado": true
+			},
+			"testPassFailCounts": {
+				"Status code é 403": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Erro esperado": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				103
+			],
+			"allTests": [
+				{
+					"Status code é 403": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"Retorno id": true,
+					"Erro esperado": true
+				}
+			]
+		},
+		{
+			"id": "3a1f8167-3ac3-4b50-a2c4-cd4d8b4f276a",
+			"name": "find All Between Dates",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/date?init=in%20sit%20laborum%20proident&end=in%20sit%20laborum%20proident",
+			"time": 113,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				113
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "72121624-0b01-4b6e-94ec-314c3c6dfeca",
+			"name": "find All Products By Category",
+			"url": "https://kantutinhatest.herokuapp.com/v1/products/category?qualification=Coupes",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "aa27a432-17ad-4b2a-8916-6e88ded77577",
+			"name": "find All 1",
+			"url": "https://kantutinhatest.herokuapp.com/v1/cities",
+			"time": 113,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				113
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false
+				}
+			]
+		},
+		{
+			"id": "8d96b5d7-8210-4937-b316-17e2294660ab",
+			"name": "update 1",
+			"url": "https://kantutinhatest.herokuapp.com/v1/cities",
+			"time": 130,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"Status code é 404": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				130
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"Status code é 404": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "820e6a22-4097-44d7-b2c5-b6681c2b41df",
+			"name": "create 1",
+			"url": "https://kantutinhatest.herokuapp.com/v1/cities",
+			"time": 105,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"Status code é 403": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 403": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				105
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"Status code é 403": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "3d211a59-c9f5-4353-bde1-d1a46c4debaa",
+			"name": "find All 3",
+			"url": "https://kantutinhatest.herokuapp.com/v1/categories",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "86b43ebd-ad85-4cb6-9c17-80c9fee265ac",
+			"name": "update 2",
+			"url": "https://kantutinhatest.herokuapp.com/v1/categories",
+			"time": 111,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code é 201": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"Body matches string": true,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				111
+			],
+			"allTests": [
+				{
+					"Status code é 201": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"Body matches string": true,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "472e0eba-7500-451e-936e-46227d760394",
+			"name": "create 3",
+			"url": "https://kantutinhatest.herokuapp.com/v1/categories",
+			"time": 122,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"Body matches string": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				122
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"Body matches string": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "ff7c27ed-f7b4-4ae4-b840-171ae2975ff0",
+			"name": "delete 1",
+			"url": "https://kantutinhatest.herokuapp.com/v1/categories/6",
+			"time": 118,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code é 200": false,
+				"Status code é 404": true,
+				"Mensagem esperada": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Mensagem esperada": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code é 200": false,
+					"Status code é 404": true,
+					"Mensagem esperada": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "fdc09079-14b7-47ac-baf7-8abd02686077",
+			"name": "find All 2",
+			"url": "https://kantutinhatest.herokuapp.com/v1/characteristics",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				115
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false
+				}
+			]
+		},
+		{
+			"id": "eadc6786-4141-4e5b-8a0d-c1bedcd338a3",
+			"name": "create 2",
+			"url": "https://kantutinhatest.herokuapp.com/v1/characteristics",
+			"time": 110,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"Body matches string": true,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"Body matches string": true,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "946eff32-5f1f-4d35-828c-7a5e6e6d15e7",
+			"name": "find By Id 1",
+			"url": "https://kantutinhatest.herokuapp.com/v1/bookings/1",
+			"time": 118,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Status code é 404": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 404": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				118
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Status code é 404": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "b9aa67ca-3de8-495b-af39-d2c5e3501429",
+			"name": "delete By Id",
+			"url": "https://kantutinhatest.herokuapp.com/v1/bookings/10",
+			"time": 114,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code é 404": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Mensagem esperada": true
+			},
+			"testPassFailCounts": {
+				"Status code é 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Mensagem esperada": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				114
+			],
+			"allTests": [
+				{
+					"Status code é 404": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Mensagem esperada": true
+				}
+			]
+		},
+		{
+			"id": "501847a3-119f-434e-a7ff-3dd6d47b48c8",
+			"name": "create 4",
+			"url": "https://kantutinhatest.herokuapp.com/v1/bookings",
+			"time": 127,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"Body matches string": true,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"Body matches string": true,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "e75546bc-4461-4942-b594-eb3bb1488515",
+			"name": "find All By User",
+			"url": "https://kantutinhatest.herokuapp.com/v1/bookings/1",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				109
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "8ca8df79-03ce-4b79-a9b8-6de3da255361",
+			"name": "find All By Product",
+			"url": "https://kantutinhatest.herokuapp.com/v1/bookings/product/2",
+			"time": 127,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				127
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "a08fa430-0bcb-4cec-b85e-021eed4c5d9d",
+			"name": "post User",
+			"url": "https://kantutinhatest.herokuapp.com/v1/users",
+			"time": 110,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code é 201": false,
+				"Status code é 403": false,
+				"O tempo de resposta é menor que 500ms": true,
+				"Body matches string": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 201": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code é 403": {
+					"pass": 0,
+					"fail": 1
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				110
+			],
+			"allTests": [
+				{
+					"Status code é 201": false,
+					"Status code é 403": false,
+					"O tempo de resposta é menor que 500ms": true,
+					"Body matches string": false,
+					"Retorno id": true
+				}
+			]
+		},
+		{
+			"id": "009f2afc-8da9-42cb-8911-6b93f8e8d103",
+			"name": "login",
+			"url": "https://kantutinhatest.herokuapp.com/login",
+			"time": 182,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code é 200": true,
+				"O tempo de resposta é menor que 500ms": true,
+				"O body contém a string...": false,
+				"Retorno id": true
+			},
+			"testPassFailCounts": {
+				"Status code é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O tempo de resposta é menor que 500ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"O body contém a string...": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Retorno id": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				182
+			],
+			"allTests": [
+				{
+					"Status code é 200": true,
+					"O tempo de resposta é menor que 500ms": true,
+					"O body contém a string...": false,
+					"Retorno id": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3598,
+	"collection": {
+		"requests": [
+			{
+				"id": "74f1390f-ec50-409d-bef7-776ddfb2edd6",
+				"method": "GET"
+			},
+			{
+				"id": "0244c913-902b-4ded-b6ca-b11851f3d925",
+				"method": "DELETE"
+			},
+			{
+				"id": "ef7a15b5-78ab-4521-bfcd-d0b0973d9ae5",
+				"method": "PATCH"
+			},
+			{
+				"id": "8c80f398-1219-427f-8398-88bdbe9783ec",
+				"method": "GET"
+			},
+			{
+				"id": "a20fb135-72a5-48e6-ae8d-d86f81d9f38f",
+				"method": "GET"
+			},
+			{
+				"id": "acd938c6-d421-4cd7-a44d-413d8d633c35",
+				"method": "GET"
+			},
+			{
+				"id": "c99737e6-6240-4351-bbe2-2d35dc894c62",
+				"method": "PUT"
+			},
+			{
+				"id": "430d9b77-c500-4326-821b-0871a760a476",
+				"method": "POST"
+			},
+			{
+				"id": "375ea449-f87c-4eba-911d-ee5908f6d59b",
+				"method": "PUT"
+			},
+			{
+				"id": "3a1f8167-3ac3-4b50-a2c4-cd4d8b4f276a",
+				"method": "GET"
+			},
+			{
+				"id": "72121624-0b01-4b6e-94ec-314c3c6dfeca",
+				"method": "GET"
+			},
+			{
+				"id": "aa27a432-17ad-4b2a-8916-6e88ded77577",
+				"method": "GET"
+			},
+			{
+				"id": "8d96b5d7-8210-4937-b316-17e2294660ab",
+				"method": "PUT"
+			},
+			{
+				"id": "820e6a22-4097-44d7-b2c5-b6681c2b41df",
+				"method": "POST"
+			},
+			{
+				"id": "3d211a59-c9f5-4353-bde1-d1a46c4debaa",
+				"method": "GET"
+			},
+			{
+				"id": "86b43ebd-ad85-4cb6-9c17-80c9fee265ac",
+				"method": "PUT"
+			},
+			{
+				"id": "472e0eba-7500-451e-936e-46227d760394",
+				"method": "POST"
+			},
+			{
+				"id": "ff7c27ed-f7b4-4ae4-b840-171ae2975ff0",
+				"method": "DELETE"
+			},
+			{
+				"id": "fdc09079-14b7-47ac-baf7-8abd02686077",
+				"method": "GET"
+			},
+			{
+				"id": "eadc6786-4141-4e5b-8a0d-c1bedcd338a3",
+				"method": "POST"
+			},
+			{
+				"id": "946eff32-5f1f-4d35-828c-7a5e6e6d15e7",
+				"method": "GET"
+			},
+			{
+				"id": "b9aa67ca-3de8-495b-af39-d2c5e3501429",
+				"method": "DELETE"
+			},
+			{
+				"id": "501847a3-119f-434e-a7ff-3dd6d47b48c8",
+				"method": "POST"
+			},
+			{
+				"id": "e75546bc-4461-4942-b594-eb3bb1488515",
+				"method": "GET"
+			},
+			{
+				"id": "8ca8df79-03ce-4b79-a9b8-6de3da255361",
+				"method": "GET"
+			},
+			{
+				"id": "a08fa430-0bcb-4cec-b85e-021eed4c5d9d",
+				"method": "POST"
+			},
+			{
+				"id": "009f2afc-8da9-42cb-8911-6b93f8e8d103",
+				"method": "POST"
+			}
+		]
+	}
+}

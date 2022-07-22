@@ -1,0 +1,124 @@
+.description_header_all_cat {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.category_container {
+  margin-top: 50px;
+  min-height: calc(100vh - 250px);
+}
+
+.category_container .row div.col-md-2:nth-child(1) {
+  padding-left: 0;
+}
+
+
+.category_container ul.components {
+  line-height: 2.6;
+}
+
+.navbar-light .navbar-brand {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.container_starts_category{
+  padding: 0.5rem 0;
+}
+
+.sidebar_li_btn {
+  width: 100%;
+  padding: 12px 0;
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebar_li_btn::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 67%;
+  left: 0;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+}
+
+
+.sidebar_li_btn:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  background: var(--secondary-color);
+}
+
+.sidebar_select {
+  width: 100%;
+  height: 2.75rem;
+  margin-top: 20px;
+  font-size: 16px;
+  background: var(--primary-color);
+  border-radius: none;
+  border: 1px solid var(--secondary-color);
+}
+
+.sidebar_select:optional{
+  padding: 0 10px;
+  font-size: 0.8rem;
+}
+
+.sidebar_select:hover {
+  box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+.sidebar_select:focus {
+  border-color: var(--dark-gold);
+  outline: 0;
+  box-shadow: 0px 0px 5px rgba(136, 109, 72, 1);
+}
+
+
+/* Card -------------------------*/
+
+.singleCard {
+  height: 100%;
+  transition: 0.3s;
+  background-color: transparent;
+}
+
+.singleCard:hover {
+  border-radius: none;
+  box-shadow: 0 0 0 1.5px var(--secondary-color);
+}
+
+.singleCard_title {
+  font-weight: 700;
+  font-size: 1rem;
+  border-bottom: 1px solid #80808047;
+}
+
+.singleCard_text {
+  font-size: 16px;
+}
+
+.singleCard_img_content {
+  border-radius: 0;
+}
+
+@media (min-width: 768px) {
+  .sidebar-category {
+    position: fixed;
+  }
+}
+
+.container__tags{
+  display: flex;
+  gap: 1rem;
+  font-size: 0.7rem;
+  color: var(--medium-grey);
+  text-decoration: none;
+}

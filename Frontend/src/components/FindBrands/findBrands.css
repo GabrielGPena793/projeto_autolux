@@ -1,0 +1,244 @@
+.container_find_brands{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container_find_brands_text{
+    width: 40rem;
+    height: 16rem;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+}
+
+.container_find_brands_text h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container_find_brands_text p{
+    font-size: 16px;
+}
+
+.container_find_brands_logo{
+    height: 9rem;
+}
+
+.container_find_brands_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.find_brands_image{
+    width: 20.3rem;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 1600px) {
+    .container_find_brands_text{
+        width: 37rem;
+    }
+    .find_brands_image{
+        width: 18rem;
+    }
+}
+@media (max-width: 1480px) {
+    .container_find_brands_text{
+        width: 34rem;
+    }
+    .find_brands_image{
+        width: 17rem;
+    }
+}
+@media (max-width: 1300px) {
+    .container_find_brands_text{
+        width: 32rem;
+    }
+    .find_brands_image{
+        width: 16rem;
+    }
+}
+@media (max-width: 1200px) {
+    .container_find_brands_text{
+        width: 32rem;
+    }
+    .find_brands_image{
+        width: 15rem;
+    }
+}
+@media (max-width: 1100px) {
+    .container_find_brands_text{
+        width: 30rem;
+    }
+    .find_brands_image{
+        width: 14rem;
+    }
+}
+@media (max-width: 1050px) {
+    .container_find_brands_text{
+        width: 29rem;
+    }
+    .find_brands_image{
+        width: 13rem;
+    }
+    .container_find_brands_text h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .container_find_brands_text p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 950px) {
+    .container_find_brands_text{
+        width: 27rem;
+    }
+    .find_brands_image{
+        width: 12rem;
+    }
+    .container_find_brands_text h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .container_find_brands_logo{
+        height: 7rem;
+    }
+}
+@media (max-width: 860px) {
+    .container_find_brands_logo{
+        height: 0;
+        width: 0;
+    }
+    .container_find_brands{
+        flex-direction: column;
+    }
+    .container_find_brands_text{
+        width: 35rem;
+    }
+    .container_find_brands_text h1{
+        text-align: center;
+    }
+    .find_brands_image{
+        width: 10rem;
+    }
+}
+@media (max-width: 727px) {
+    .container_find_brands_text{
+        width: 33rem;
+    }
+    .find_brands_image{
+        width: 11rem;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+}
+@media (max-width: 633px) {
+    .container_find_brands_text{
+        width: 30rem;
+    }
+    .find_brands_image{
+        width: 10rem;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+}
+@media (max-width: 585px) {
+    .container_find_brands_text{
+        width: 24rem;
+    }
+    .find_brands_image{
+        width: 9rem;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+    .container_find_brands_text h1{
+        font-size: 22px;
+    }
+    .container_find_brands_text p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 545px) {
+    .container_find_brands_text{
+        width: 20rem;
+    }
+    .find_brands_image{
+        width: 8rem;
+        margin-bottom: 90px;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+    .container_find_brands_text h1{
+        font-size: 20px;
+    }
+    .container_find_brands_text p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 430px) {
+    .container_find_brands_text{
+        width: 17rem;
+    }
+    .find_brands_image{
+        width: 7rem;
+        margin-bottom: 80px;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+    .container_find_brands_text h1{
+        font-size: 20px;
+    }
+    .container_find_brands_text p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 375px) {
+    .container_find_brands_text{
+        width: 15rem;
+    }
+    .find_brands_image{
+        width: 6.4rem;
+        margin-bottom: 80px;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+    .container_find_brands_text h1{
+        font-size: 17px;
+    }
+    .container_find_brands_text p{
+        font-size: 12px;
+    }
+}
+@media (max-width: 350px) {
+    .container_find_brands_text{
+        width: 14rem;
+    }
+    .find_brands_image{
+        width: 5.7rem;
+        margin-bottom: 70px;
+    }
+    .find_brands_image1{
+        width: 0;
+    }
+    .container_find_brands_text h1{
+        font-size: 16px;
+    }
+    .container_find_brands_text p{
+        font-size: 12px;
+    }
+}

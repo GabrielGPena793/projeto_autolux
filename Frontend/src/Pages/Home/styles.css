@@ -1,0 +1,29 @@
+.container__home_page{
+  position: relative;
+}
+
+.container__home{
+  position: relative;
+}
+
+.container__home_img > img {
+  width: 100%;
+}
+
+.container__home_title_banner {
+  color: #fff;
+  max-width: 38rem;
+  position: absolute;
+  left: 10vw;
+  top: 11vw;
+}
+
+.container__home_title_banner .home_title{
+  font-weight: bold;
+  font-size: clamp(1rem, 4vw, 3.375rem);;
+}
+
+.container__home_title_banner .home_paragraph{
+  font-size: clamp(0.5rem, 2vw, 1.5625rem);
+}
+

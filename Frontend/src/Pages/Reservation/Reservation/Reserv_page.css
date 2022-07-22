@@ -1,0 +1,405 @@
+.reserv_page {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+.rmdp-wrapper {
+  background-color: var(--light);
+}
+
+.rmdp-shadow {
+ box-shadow: 0px var(--light);
+}
+
+.reserv_page_color_pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.reserv_page_all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.reserv_page_right {
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem 1rem 1rem;;
+  border: 1px solid var(--secondary-color);
+  max-width: 24rem;
+  max-height: 48.3rem;
+  margin-left: 30px;
+}
+
+.reserv_page_right img {
+  margin-bottom: 2.687rem;
+}
+
+.reserv_page_right h3 {
+  margin-bottom: 1.1rem
+}
+
+.reserv_page_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reserv_page_data_size{
+  width: 21rem;
+}
+
+.reserv_page_data {
+  background-color: var(--primary-color);
+  width: 55rem;
+  padding-bottom: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid var(--secondary-color);
+}
+
+.reserv_page_name_lastname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reserv_page_email_city{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reserv_page_schedule {
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  padding: 1rem;
+  width: 55rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.reserv_page_time_all {
+  background-color: var(--primary-color);
+  width: 55rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 100px;
+  padding: 1.3rem 1.5rem ;
+  border: 1px solid var(--secondary-color);
+}
+
+.reserv_page_time h6{
+  margin-bottom: 0.5rem;
+}
+
+.reserv_page_time_choice{
+  color: var(--light);
+  background-color: var(--dark-blue);
+  border: 1px solid var(--secondary-color);
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+  width: 100%;
+  max-width: 24.25rem;
+  outline: none;
+}
+
+.reserv_page_color_pad h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-left: 3px;
+}
+
+.reserv_page_right h4 {
+  margin-bottom: 1.1rem;
+}
+
+.reserv_page_img {
+  object-fit: contain;
+}
+
+.reserv_page_details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  color: var(--dark);
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.reserv_page_details .details_span {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--medium-grey);
+}
+
+.reserv_page_details h5 {
+  font-weight: bold;
+  color: rgba(74, 74, 74, 0.4);
+  margin: 0;
+  padding: 0;
+}
+
+.reserv_page_details h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.reserv_page_details h6 {
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.reserv_page_date{
+  margin-bottom: 20px;
+}
+
+.reserv_page_date_check{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--secondary-color);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.reserv_page_date_check p{
+  margin: 15px 10px 29px 10px;
+}
+
+.reserv_details_box_button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+
+.reserv_page_icon{
+  margin-right: 0.4rem;
+}
+
+.select_hour_text {
+  margin-top: 1.25rem;
+  font-size: 0.625rem;
+}
+
+.car_categories_reservation {
+  max-width: 1294px;
+  padding: 0;
+  margin: auto;
+}
+.car_categories_reservation  .descrip_footer_all {
+  padding: 0;
+  height: 100%;
+}
+
+
+@media (max-width: 1220px) {
+  .reserv_page_right {
+    width: 18rem;
+    margin-left: 28px;
+  }
+  .reserv_page_data {
+    width: 38rem;
+  }
+  .reserv_page_schedule {
+    width: 38rem;
+  }
+  .reserv_page_time_all {
+    width: 38rem;
+  }
+  .reserv_page_data_size{
+    width: 16rem;
+  }
+
+  .car_categories_reservation {
+    max-width: 57.75rem;
+  }
+
+}
+
+@media (max-width: 1050px) {
+  .reserv_page_all {
+    flex-direction: column;
+  }
+  .reserv_page_right {
+    width: 44rem;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    max-width: none;
+    max-height: none;
+    padding: 0.5rem 1rem 3rem 1rem;
+  }
+  .reserv_page_data {
+    width: 44rem;
+  }
+  .reserv_page_schedule {
+    width: 44rem;
+  }
+  .reserv_page_time_all {
+    width: 44rem;
+    margin-bottom: 30px;
+  }
+  .reserv_page_data_size{
+    width: 100%;
+  }
+
+  .reserv_details_box_button{
+    margin-top: 78px;
+  }
+
+  .reserv_page_name_lastname,
+  .reserv_page_email_city {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .car_categories_reservation {
+    max-width: 44rem;
+  }
+
+  .reserv_page_color_pad {
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .reserv_page_left {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 830px) {
+  .reserv_page_right {
+    width: 32rem;
+  }
+  .reserv_page_data {
+    width: 32rem;
+  }
+  .reserv_page_schedule {
+    width: 32rem;
+  }
+  .reserv_page_time_all {
+    width: 32rem;
+  }
+  .reserv_page_data_size{
+    width: 14rem;
+  }
+  .car_categories_reservation {
+    max-width: 32rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .reserv_page_name_lastname {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reserv_page_email_city{
+    flex-direction: column;
+    align-items: center;
+  }
+  .reserv_page_right {
+    width: 25rem;
+  }
+  .reserv_page_data {
+    width: 25rem;
+  }
+  .reserv_page_schedule {
+    width: 25rem;
+  }
+  .reserv_page_time_all {
+    width: 25rem;
+  }
+  .reserv_page_data_size{
+    width: 20rem;
+  }
+  .reserv_page_date{
+    display: flex;
+    flex-direction: column;
+  }
+  .reserv_page_date_check{
+    font-size: 18px;
+  }
+  .car_categories_reservation {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .reserv_page_right {
+    width: 20rem;
+  }
+  .reserv_page_data {
+    width: 20rem;
+  }
+  .reserv_page_schedule {
+    width: 20rem;
+  }
+  .reserv_page_time_all {
+    width: 20rem;
+  }
+  .reserv_page_data_size{
+    width: 17rem;
+  }
+  .reserv_details_box_button button{
+    width: 18rem;
+    height: 45px;
+    font-size: 17px;
+  }
+  .reserv_page_time_choice{
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+  }
+  .car_categories_reservation {
+    max-width: 20rem;
+  }
+  .reserv_page_all {
+    align-items: center;
+  }
+
+  .reserv_page_all .container__calendar .rmdp-left,
+  .reserv_page_all .container__calendar .rmdp-right {
+    top: 53%;
+  }
+  .reserv_page_all .container__calendar .rmdp-day-picker{
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .reserv_page_right {
+    width: 17rem;
+  }
+  .reserv_page_data {
+    width: 17rem;
+  }
+  .reserv_page_schedule {
+    width: 17rem;
+  }
+  .reserv_page_time_all {
+    width: 17rem;
+  }
+  .reserv_page_data_size{
+    width: 15rem;
+  }
+  .reserv_details_box_button button{
+    width: 16rem;
+  }
+  .reserv_page_time_choice{
+    padding: 0.5rem 0rem 0.5rem 0rem;
+  }
+  .reserv_page_color_pad h4 {
+    font-size: 1.15rem;
+  }
+
+  .car_categories_reservation {
+    max-width: 17rem;
+  }
+}
+
+

@@ -1,0 +1,192 @@
+.search-bar-div {
+  max-width: 74.75rem;
+  width: 85vw;
+}
+
+.search-bar-div > div {
+  max-width: 74.75rem;
+  padding: 17px 13px;
+}
+
+.search-bar-title {
+  text-align: center;
+  color: var(--light);
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+#search-bar {
+  margin-top: -3rem;
+  position: relative;
+  background: linear-gradient(
+    138deg,
+    rgba(21, 23, 37, 1) 49%,
+    rgba(11, 13, 14, 1) 100%
+  );
+  border: 2px solid var(--secondary-color);
+}
+
+.form-control {
+  cursor: pointer;
+  border: 0;
+  border-radius: 0;
+}
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+
+.rmdp-input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/*calendario*/
+
+.rmdp-input {
+  width: 100%;
+  border: none !important;
+  cursor: pointer;
+}
+
+.red .rmdp-week-day {
+  color: var(--red) !important;
+}
+
+.red .rmdp-range {
+  background-color: var(--red) !important;
+}
+
+.red .rmdp-day:not(.rmdp-day-hidden) span.sd:hover {
+  background-color: var(--red-hover) !important;
+}
+
+.container_search {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.search_input,
+.search_input_select {
+  flex: 2;
+  background-color: var(--primary-color);
+  border-radius: 0;
+}
+
+.search_input_select {
+  border: 2px solid var(--secondary-color);
+  padding: 0.525rem .75rem;
+}
+
+.form-control.search_input_select:optional {
+
+  border: 2px solid var(--secondary-color);
+
+}
+
+
+.input_date {
+  border: 2px solid var(--secondary-color);
+}
+
+.search_button {
+  flex: 1;
+}
+
+.rmdp-container,
+.rmdp-container input {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.rmdp-container input::placeholder,
+.form-control.search_input_select:optional {
+  color: rgb(206, 194, 194);
+  background-color: var(--primary-color);
+  font-size: 0.8rem;
+}
+
+.search_input_select:focus {
+  color: black;
+}
+
+.rmdp-header {
+  border-bottom: 1px solid var(--dark-gold);
+}
+
+.rmdp-wrapper {
+  background-color: #1F2030 !important;
+}
+
+.rmdp-wrapper > div {
+  border: 0;
+}
+
+
+.rmdp-header-values {
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.rmdp-range {
+  background-color: var(--secondary-color) !important;
+}
+
+.rmdp-day,
+.rmdp-week-day {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 760px) {
+  #search-bar {
+    margin-top: 0;
+    position: relative;
+    background: transparent;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+
+    max-width: 587px;
+  }
+
+  .search-bar-div > div {
+    padding: 0px 13px;
+  }
+
+  .search-bar-div .title {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+
+  div.container_search {
+    flex-direction: column;
+    margin-top: 17px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    gap: 12px;
+  }
+
+  .form-control {
+    height: 54px;
+    padding: 0 0.75rem;
+  }
+
+  .rmdp-container {
+    display: inline-block;
+    height: max-content;
+  }
+
+  .rmdp-input {
+    height: 54px;
+  }
+
+  .btn-search {
+    height: 54px;
+  }
+}
